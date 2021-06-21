@@ -1,0 +1,57 @@
+/*
+	C:\Martin\4Work\toolCode\Html\styleAny.css
+	ª2008 Martin George | All rights reserved.
+*/
+
+body	{ background: url( 'C:/workspace/images/parchment.jpg' ) ; line-height: 1 ;
+			font-family: verdana ; font-size: 8pt ; }
+
+h1 , h2 , h3 , h4 , h5 , h6 , img , form , font { display: inline ; }
+
+h1 , h2 , h3 , h4 , h5 , h6 { color: #101030 ; }
+
+img.btn	{ height: 12px ; width: 12px ; border: 0px ; background: transparent ; }
+
+a , a:visited				{ color: #406080 ; text-decoration: none ; }
+a:hover , a:active			{ color: #406080 ; text-decoration: underline ; }
+
+a.bld , a.bld:visited		{ color: #406080 ; text-decoration: none ; }
+a.bld:hover , a.bld:active	{ color: #406080 ; text-decoration: none ; font-weight: bold ; }
+
+a.wht , a.wht:visited		{ font-family: verdana ; text-decoration: none ; color: #ffffff ; }
+a.wht:hover , a.wht:active	{ text-decoration: none ; color: #6060f0 ; }
+
+table	{ font-size: 8pt ; font-family: verdana ; }
+td		{ padding-left: 4px ; padding-right: 4px ; }
+
+th		{ background-color: #e0e0e0 ; color: #406080 ; font-weight: 900 ;
+				padding-left: 4px ; padding-right: 4px ; }
+th.cont	{ background-color: #6080a0 ; color: #e0e0e0 ; font-weight: 900 ;
+				text-align: left ; padding-left: 4px ; padding-right: 4px ; }
+
+hr		{ color: #cccccc ; width: 80% ; }
+
+pre		{ line-height: 1.25 ; } /* word-wrap: break-word ; white-space: -moz-pre-wrap ; */
+.txt	{ font-family: verdana ; color: #206080 ; }
+
+ol		{ list-style-type: decimal ; }
+li		{ list-style-type: disc ; }
+
+.err	{ color: #c00000 ; }
+.good	{ color: #00c000 ; }
+.msg	{ color: #0000c0 ; }
+
+.head	{ background: #35556B url( 'headlogo.gif' ) ; color: #ffffff ; }
+
+.indn	{ margin-left: 10px ; }
+.prim	{ background-color: #f0f0ff ; margin-left: 20px ; }
+.srch	{ background-color: #cc0000 ; color: #ffffff ; height: 20px ; font-family: verdana ; font-size: 7pt ; font-weight: 900 ; }
+.wht	{ font-family: verdana ; text-decoration: none ; color: #ffffff ; }
+
+.reds	{ color: #a04080 ; }	/* 060 / 112 / 160 */
+.grns	{ color: #40a060 ; }	/* 060 / 112 / 160 */
+.blue	{ color: #4080a0 ; }	/* 060 / 112 / 160 */
+.brwn	{ color: #909064 ; }	/* 144 / 144 / 100 */
+.putt	{ color: #c0c0a4 ; }	/* 192 / 192 / 164		194 , 191 , 165	*/
+.tans	{ color: #e0e0d0 ; }	/* 224 / 224 / 208 */
+.blck	{ color: #000000 ; }	/* 060 / 112 / 160 */

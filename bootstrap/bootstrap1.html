@@ -1,0 +1,739 @@
+<!DOCTYPE HTML>
+<!-- 
+c:\workspace\training\bootstrap\bootstrap1.html
+copyright 2018 Martin George , All rights reserved. 
+-->
+
+<html lang = "en"><head><title>Bootstrap3</title>
+
+<!-- bootstrap init -->
+<meta charset = "utf-8">
+<meta name = "viewport" content = "width=device-width , initial-scale=1">
+<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--base href = "C:/Martin/4Work/mamgeorge/" -->
+<meta http-equiv = "keywords" content = "MLG Martin George mamgeorge alterVista" />
+<link type = "image/x-icon" rel = "shortcut icon" href = "images/bootstrap.png" />
+<link rel = "apple-touch-icon" href = "images/bootstrap.jpg" />
+<script type = "text/javascript" src = "resources/basics.js" ></script>
+<script type = "text/javascript" src = "resources/quotables.js" ></script>
+<style>
+body	{ background: url( 'images/parchment.jpg' ) ; }
+img { width: 200px ; }
+</style>
+
+</head>
+
+<!--################################-->
+<body><div class = "container">
+
+<br />
+	<div class = "page-header"><h1 onclick = "location.href = 'development.html'" >Bootstrap3 Sample 1</h1>
+	<small><a name = "toc" href = "https://www.webpagefx.com/tools/lorem-ipsum-generator/loremipsum/paragraphs" >
+	<script type = "text/javascript" > document.write( dateTime( '' ) ) ; </script></a><small></div>
+
+<div class = "row">
+<div class = "col-xs-12">
+<ul role = "menu">
+	<li /><a href = "#breadcrumbs"	>featuring rows , navbar , block , breadcrumbs , pagination , pager</a>
+	<li /><a href = "#listinline"	>featuring list-inline , nav-tabs , nav-pills</a>
+	<li /><a href = "#buttons"		>featuring buttons , labels , dropdown</a>
+	<li /><a href = "#columns"		>featuring columns , code , abbr , kbd , text , backgrounds</a>
+	<li /><a href = "#images"		>featuring images rounded , circle , thumbnail</a>
+	<li /><a href = "#lists"		>featuring detailLists , alerts , table </a>
+	<li /><a href = "#progress"	>featuring progress-bar</a>
+	<li /><a href = "#jumbotron"	>featuring jumbotron , wells , listsGroups , panels</a>
+	<li /><a href = "#collapsibles"	>featuring collapsibles</a>
+	<li /><a href = "#blockquote"	>featuring blockquote ( reverse centered )</a>
+	</ul>
+</div>
+</div>
+
+<!--################################-->
+<a name = "breadcrumbs" href = "#toc" >featuring rows , navbar , block , breadcrumbs , pagination , pager</a>
+
+<nav class = "navbar navbar-default navbar-inverse navbar-fixed-top">
+	<div class = "container-fluid">
+		<div class = "navbar-header"> <a class = "navbar-brand" href = "development.html">MamGeorge</a> </div>
+		<ul class = "nav navbar-nav">
+			<li><a class = "active" href = "development.html">Home</a></li>
+			<li><a href = "#">Spirit	</a></li>
+			<li><a href = "#">Family	</a></li>
+			<li><a href = "#">Service	</a></li>
+			<li class = "dropdown">
+				<a class = "dropdown-toggle" data-toggle = "dropdown" href = "#" >Work
+					<span class = "caret"></span></a>
+					<ul class = "dropdown-menu" role = "menu" >
+					<li><a href = "#">SQL</a></li>
+					<li><a href = "#">JSP</a></li>
+					<li><a href = "#">J2EE</a></li>
+					<li class = "divider"></li>
+					<li><a href = "#">Servers</a></li>
+						</ul>
+				</li>
+			<li><a href = "#">Project	</a></li>
+			</ul>
+
+		<form class = "navbar-form navbar-left" action = "#">
+			<div class = "form-group"> <input type = "text" class = "form-control" placeholder = "Search" /> </div>
+			<button type = "submit" class = "btn btn-default">Submit</button>
+			</form>
+
+		<button class = "btn btn-success navbar-btn" onclick = "location.href='bootstrap2.html'" >Next ></button>
+
+		<p class = "navbar-text">navbar top</p>
+
+	</div>
+	</nav>
+
+<nav class = "navbar navbar-default navbar-inverse navbar-fixed-bottom">
+	<div class = "container-fluid">
+		<div class = "navbar-header"> <a class = "navbar-brand" href = "development.html">MamGeorge</a> </div>
+		<ul class = "nav navbar-nav">
+			<li><a class = "active" href = "development.html">Home</a></li>
+			<li><a href = "#">Spirit	</a></li>
+			<li><a href = "#">Family	</a></li>
+			<li><a href = "#">Service	</a></li>
+			<li class = "dropdown">
+				<a class = "dropdown-toggle" data-toggle = "dropdown" href = "#" >Work
+					<span class = "caret"></span></a>
+					<ul class = "dropdown-menu" role = "menu" >
+					<li><a href = "#">SQL</a></li>
+					<li><a href = "#">JSP</a></li>
+					<li><a href = "#">J2EE</a></li>
+					<li class = "divider"></li>
+					<li><a href = "#">Servers</a></li>
+						</ul>
+				</li>
+			<li><a href = "#">Project	</a></li>
+			</ul>
+
+		<form class = "navbar-form navbar-left" action = "#">
+			<div class = "input-group">	<input type = "text" class = "form-control" placeholder = "Search">
+				<div class = "input-group-btn"><button class = "btn btn-default" type = "submit">
+					<i class = "glyphicon glyphicon-search"></i></button></div>
+				</div>
+			</form>
+
+		<p class = "navbar-text">navbar bottom</p>
+
+		<ul class = "nav navbar-nav navbar-right">
+			<li><a href = "#"><span class = "glyphicon glyphicon-user"></span> SignUp</a></li>
+			<li><a href = "#"><span class = "glyphicon glyphicon-log-in"></span> Login</a></li>
+			</ul>
+	</div>
+	</nav>
+
+<button type = "button" class = "btn btn-success btn-block" onclick = "window.location.href='development.html';" >return</button>
+
+<br />breadcrumb1
+<ul class = "breadcrumb" role = "menu">
+	<li role = "presentation" ><a role = "menuitem" href = "development.html">Home		</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Spirit	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Family	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Service	</a></li>
+	<li role = "presentation" class = "active" ><span role = "menuitem" >Work</span></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Project	</a></li>
+	</ul>
+
+breadcrumb2
+<ul class = "breadcrumb" role = "menu">
+	<li role = "presentation" ><a role = "menuitem" href = "#">resume		</a></li>
+	<li role = "presentation" class = "active"><span role = "menuitem" >samples</span></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">VMM			</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">business		</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">marathons	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">links		</a></li>
+	</ul>
+
+pagination1
+<ul class = "pagination pagination-sm" role = "menu">
+	<li role = "presentation" ><a role = "menuitem" href = "development.html">Home		</a></li>
+	<li role = "presentation" class = "disabled"	><a role = "menuitem" href = "#">Spirit		</a></li>
+	<li role = "presentation" class = "disabled"	><a role = "menuitem" href = "#">Family		</a></li>
+	<li role = "presentation" class = "disabled"	><a role = "menuitem" href = "#">Service	</a></li>
+	<li role = "presentation" class = "active"		><a role = "menuitem" href = "#">Work		</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Project	</a></li>
+	</ul>
+
+pagination2
+<ul class = "pagination pagination-sm" role = "menu" >
+	<li role = "presentation" ><a href = "#">resume	</a></li>
+	<li class = "dropdown" >
+		<a class = "dropdown-toggle" data-toggle = "dropdown" href = "#">samples
+			<b class = "caret"></b></a>
+		<ul class = "dropdown-menu" role = "menu" >
+			<li role = "presentation" ><a role = "menuitem" tabindex = "-1" href = "#">HTML		</a></li>
+			<li role = "presentation" ><a role = "menuitem" tabindex = "-1" href = "#">CSS		</a></li>
+			<li role = "presentation" ><a role = "menuitem" tabindex = "-1" href = "#">JavaScript</a></li>
+			<li role = "presentation" class = "divider"></li>
+			<li role = "presentation" class = "dropdown-header">NonStandard</li>
+			<li role = "presentation" ><a role = "menuitem" tabindex = "-1" href = "#">BootStrap	</a></li>
+			<li role = "presentation" class = "disabled"><a role = "menuitem" tabindex = "-1" href = "#">Angular	</a></li>
+			</ul>
+		</li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">VMM			</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">business		</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">marathons	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">links		</a></li>
+	</ul>
+
+<br /><p>pager1</p>
+<ul class = "pager" role = "menu" >
+	<li role = "presentation" ><a role = "menuitem" href = "development.html">Previous	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Another	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Other	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Next		</a></li>
+	</ul>
+
+pager2
+<ul class = "pager" role = "menu" >
+	<li role = "presentation" class = "previous"	><a role = "menuitem" href = "development.html">Previous	</a></li>
+	<li role = "presentation" class = "another"		><a role = "menuitem" href = "#">Another	</a></li>
+	<li role = "presentation" class = "other"		><a role = "menuitem" href = "#">Other		</a></li>
+	<li role = "presentation" class = "next"		><a role = "menuitem" href = "#">Next		</a></li>
+	</ul>
+
+<!--################################-->
+<br /><a name = "listinline" href = "#toc" >featuring list-inline , nav-tabs , nav-pills</a>
+
+<br /><br /><p>listinline1</p>
+<ul class = "list-inline" role = "menu" >
+	<li role = "presentation" ><a role = "menuitem" href = "development.html" >Home		</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Spirit	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Family	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Service	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Work	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Project	</a></li>
+	</ul>
+
+<p>listinline2</p>
+<ul class = "nav nav-tabs" role = "menu" >
+	<li role = "presentation" class = "active" ><a role = "menuitem" href = "development.html">Home	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Spirit	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Family	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Service	</a></li>
+	<li class = "dropdown" role = "presentation" >
+		<a class = "dropdown-toggle" data-toggle = "dropdown" href = "#" role = "menuitem" href = "#">Work
+			<span class = "caret"></span></a>
+			<ul class = "dropdown-menu" role = "menu" >
+			<li role = "presentation" ><a role = "menuitem" href = "#">SQL</a></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">JSP</a></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">J2EE</a></li>
+			<li role = "presentation" class = "divider"></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">Servers</a></li>
+				</ul>
+		</li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Project	</a></li>
+	</ul>
+
+<ul class = "nav nav-pills nav-justified" role = "menu" >
+	<li role = "presentation" class = "active" ><a role = "menuitem" href = "development.html">Home	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Spirit	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Family	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Service	</a></li>
+	<li class = "dropdown" role = "presentation" >
+		<a class = "dropdown-toggle" data-toggle = "dropdown" href = "#" role = "menuitem" href = "#">Work
+			<span class = "caret"></span></a>
+			<ul class = "dropdown-menu" role = "menu" >
+			<li role = "presentation" ><a role = "menuitem" href = "#">SQL</a></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">JSP</a></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">J2EE</a></li>
+			<li role = "presentation" class = "divider"></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">Servers</a></li>
+				</ul>
+		</li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Project	</a></li>
+	</ul>
+
+<div class = "row">
+<div class = "col-xs-3"></div>
+<div class = "col-xs-3"></div>
+<div class = "col-xs-3">
+<ul class = "nav nav-pills nav-stacked" role = "menu" >
+	<li role = "presentation" class = "active" ><a role = "menuitem" href = "development.html">Home	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Spirit	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Family	</a></li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Service	</a></li>
+	<li class = "dropdown" role = "presentation" >
+		<a class = "dropdown-toggle" data-toggle = "dropdown" href = "#" role = "menuitem" href = "#">Work
+			<span class = "caret"></span></a>
+			<ul class = "dropdown-menu" role = "menu" >
+			<li role = "presentation" ><a role = "menuitem" href = "#">SQL</a></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">JSP</a></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">J2EE</a></li>
+			<li role = "presentation" class = "divider"></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">Servers</a></li>
+				</ul>
+		</li>
+	<li role = "presentation" ><a role = "menuitem" href = "#">Project	</a></li>
+	</ul>
+</div>
+</div>
+
+<div class = "row">
+<div class = "col-xs-6">
+	<ul class = "nav nav-tabs">
+		<li class = "active"><a data-toggle = "tab" href = "#tabhome">TabHome</a></li>
+		<li><a data-toggle = "tab" href = "#tabmenu1">TabMenu 1</a></li>
+		<li><a data-toggle = "tab" href = "#tabmenu2">TabMenu 2</a></li>
+		</ul>
+
+		<div class = "tab-content">
+			<div id = "tabhome" class = "tab-pane fade in active">
+				<h3>Tab HOME</h3>
+				<p>Some Tab content.</p>
+				</div>
+			<div id = "tabmenu1" class = "tab-pane fade">
+				<h3>Tab Menu 1</h3>
+				<p>Some Tab content in menu 1.</p>
+				</div>
+			<div id = "tabmenu2" class = "tab-pane fade">
+				<h3>Tab Menu 2</h3>
+				<p>Some Tab content in menu 2.</p>
+				</div>
+			</div>
+	</div>
+
+<div class = "col-xs-6">
+	<ul class = "nav nav-pills">
+		<li class = "active"><a data-toggle = "tab" href = "#pillhome">PillHome</a></li>
+		<li><a data-toggle = "tab" href = "#pillmenu1">Menu 1</a></li>
+		<li><a data-toggle = "tab" href = "#pillmenu2">Menu 2</a></li>
+		</ul>
+
+		<div class = "tab-content">
+			<div id = "pillhome" class = "tab-pane fade in active">
+				<h3>Pill HOME</h3>
+				<p>Some Pill content.</p>
+				</div>
+			<div id = "pillmenu1" class = "tab-pane fade">
+				<h3>Pill Menu 1</h3>
+				<p>Some Pill content in menu 1.</p>
+				</div>
+			<div id = "pillmenu2" class = "tab-pane fade">
+				<h3>Pill Menu 2</h3>
+				<p>Some Pill content in menu 2.</p>
+				</div>
+			</div>
+	</div>
+
+</div>
+
+<!--################################-->
+<br /><br /><a name = "buttons" href = "#toc" >featuring buttons , labels , dropdowns</a>
+
+<div class = "btn-group btn-group-justified">
+
+	<a href = "#" class = "btn btn-info" >LINK</a>
+
+	<div class = "btn-group"><button type = "button" class = "btn btn-info disabled">Disabled</button></div>
+
+	<div class = "btn-group">
+		<button type = "button" class = "btn btn-info dropdown-toggle" data-toggle = "dropdown">Java Stack
+			<b class = "caret"></b></button>
+		<ul class = "dropdown-menu" role = "menu">
+			<li role = "presentation" ><a role = "menuitem" href = "#">JSP , HTML , CSS , JavaScript</a></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">Java , J2EE			</a></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">SQL , DB2 , Oracle	</a></li>
+			<li role = "presentation" class = "divider"></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">Tomcat , WAS		</a></li>
+			</ul>
+		</div>
+
+	<div class = "btn-group">
+		<button type = "button" class = "btn btn-info dropdown-toggle" data-toggle = "dropdown">MEAN Stack
+			<b class = "caret"></b></button>
+		<ul class = "dropdown-menu" role = "menu">
+			<li role = "presentation" ><a role = "menuitem" href = "#">MongoDB	</a></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">ExpressJS	</a></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">AngularJS	</a></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">NodeJs	</a></li>
+			<li role = "presentation" class = "divider"></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">Python	</a></li>
+			</ul>
+		</div>
+	</div>
+
+<div class = "row">
+<div class = "col-xs-4">
+<div class = "btn-group-vertical btn-group-xs">
+	<button type = "button" class = "btn btn-link"		>Home		</button>
+	<button type = "button" class = "btn"					>TOC		</button>
+	<button type = "button" class = "btn btn-default"	>Main		</button>
+	<button type = "button" class = "btn btn-primary"	>Applied1	<span class = "badge">1</span></button>
+	<button type = "button" class = "btn btn-primary"	>Applied2	<span class = "badge">5</span></button>
+	<button type = "button" class = "btn btn-success"	>Print		</button>
+	<button type = "button" class = "btn btn-info"		>Search		</button>
+	<button type = "button" class = "btn btn-warning"	>Applied	</button>
+	<button type = "button" class = "btn btn-danger"	>Resources	</button>
+	</div>
+	</div>
+
+<div class = "col-xs-8">
+<br />
+<div class = "btn-group dropup">
+	<button type = "button" class = "btn btn-primary">SQL</button>
+	<button type = "button" class = "btn btn-primary">JSP</button>
+	<button type = "button" class = "btn btn-primary">J2EE</button>
+	<div class = "btn-group">
+		<button type = "button" class = "btn btn-primary dropdown-toggle" data-toggle = "dropdown">Servers
+			<b class = "caret"></b></button>
+		<ul class = "dropdown-menu" role = "menu" >
+			<li role = "presentation" ><a role = "menuitem" href = "#">Tomcat</a></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">WAS</a></li>
+			<li role = "presentation" class = "divider"></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">JBoss</a></li>
+			<li role = "presentation" ><a role = "menuitem" href = "#">Glassfish</a></li>
+			</ul>
+	</div>
+	</div>
+
+<br /><br />
+<div class = "btn-group">
+	<button type = "button" class = "btn btn-success">MongoDB	<span class = "glyphicon glyphicon-home" /></button>
+	<button type = "button" class = "btn btn-success">ExpressJs	<span class = "glyphicon glyphicon-list" /></button>
+	<button type = "button" class = "btn btn-success">AngularJs	<span class = "glyphicon glyphicon-print" /></button>
+	<button type = "button" class = "btn btn-success">NodeJs	<span class = "glyphicon glyphicon-search" /></button>
+	</div>
+
+<br /><br />
+<button type = "button" class = "btn btn-link"		>LINK	</button>
+<button type = "button" class = "btn"				>Basic	</button>
+<button type = "button" class = "btn btn-default"	>Default</button>
+<button type = "button" class = "btn btn-primary"	>Primary</button>
+<button type = "button" class = "btn btn-success"	>Success</button>
+<button type = "button" class = "btn btn-info"		>Info	</button>
+<button type = "button" class = "btn btn-warning"	>Warning</button>
+<button type = "button" class = "btn btn-danger"	>Danger	</button>
+
+<br /><h3>
+<span class = "label"				>Basic</span>
+<span class = "label label-default"	>Default</span>
+<span class = "label label-primary"	>Primary</span>
+<span class = "label label-success"	>Success</span>
+<span class = "label label-info"	>Info</span>
+<span class = "label label-warning"	>Warning</span>
+<span class = "label label-danger"	>Danger</span>
+</h3>
+</div>
+</div>
+
+<!--################################-->
+<a name = "columns" href = "#toc" >featuring columns , code , abbr , kbd , text , backgrounds</a>
+<div class = "row">
+<div class = "col-xs-4">
+	<i class = "fa fa-cog fa-spin" /></i>
+	Lorem ipsum dolor sit amet , consectetur adipiscing elit. Integer nec odio. Praesent libero.
+	Sed cursus ante <code>dapibus</code> diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. <abbr title = "Duis sagittis ipsum">DSI</abbr>.
+	Praesent mauris. Fusce nec tellus sed augue semper porta. <code>Mauris</code> massa. Vestibulum lacinia arcu eget nulla.
+	Class aptent taciti sociosqu ad litora <kbd>torquent</kbd> per conubia nostra , per inceptos himenaeos.
+	Curabitur sodales ligula in libero.
+	</div>
+
+<div class = "col-xs-4">
+	<i class = "fa fa-cog fa-spin" /></i>
+	Sed dignissim lacinia nunc. Curabitur tortor.
+	<b class = "text-muted"		>Pellentesque nibh. Aenean quam. </b>
+	<b class = "text-primary"	>In scelerisque sem at dolor. Maecenas mattis. </b>
+	<b class = "text-success"	>Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. </b>
+	<b class = "text-info"		>Morbi lectus risus , iaculis vel , suscipit quis , luctus non , massa. </b>
+	<b class = "text-warning"	>Fusce ac turpis quis ligula lacinia aliquet. </b>
+	<b class = "text-danger"	>Mauris ipsum. Nulla metus metus , ullamcorper vel , tincidunt sed , euismod in , nibh. </b>
+	Quisque volutpat condimentum velit.
+	</div>
+
+<div class = "col-xs-4">
+	<i class = "fa fa-cog fa-spin" /></i>
+	Class aptent taciti sociosqu ad litora torquent per conubia nostra , per inceptos himenaeos. Nam nec ante.
+	<b class = "bg-primary"	>Sed lacinia , urna non tincidunt mattis , tortor neque adipiscing diam , a cursus ipsum ante quis turpis.</b>
+	<b class = "bg-success"	>Nulla facilisi. </b>
+	<b class = "bg-info"	>Ut fringilla. </b>
+	<b class = "bg-warning"	>Suspendisse potenti.</b>
+	<b class = "bg-danger"	>Nunc feugiat mi a tellus consequat imperdiet. </b>
+	Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit.
+	</div>
+</div>
+
+<!--################################-->
+<br /><a name = "images" href = "#toc" >featuring images rounded , circle , thumbnail</a>
+<div class = "row">
+<div class = "col-xs-4">
+	featuring image rounded<br />
+	<img src = "images/sol_apollo11.jpg"	alt = "Apollo11"	class = "img-rounded"	/>
+	<div class = "caption">Apollo11</div></div>
+
+<div class = "col-xs-4">
+	featuring image circle<br />
+	<img src = "images/sol_gemini7.jpg"		alt = "Gemini7"		class = "img-circle"	/>
+	<div class = "caption">Gemini7</div></div>
+
+<div class = "col-xs-4">
+	featuring image thumbnail<br />
+	<img src = "images/sol_orion.jpg"		alt = "Orion"		class = "img-thumbnail"	/>
+	<div class = "caption">Orion</div></div>
+</div>
+
+<!--################################-->
+<br /><a name = "lists" href = "#toc" >featuring detailLists , alerts , table</a>
+<div class = "row">
+<div class = "col-xs-4">
+	featuring detailLists<br />
+	<dl>
+	<dt>Apollo11</dt>	<dd>Manned moon mission</dd>
+	<dt>Gemini7</dt>	<dd>Earth circumnavigation</dd>
+	<dt>Orion</dt>		<dd>Future proposal</dd>
+	</dl>
+	</div>
+
+<div class = "col-xs-4">
+<table class = "table-hover">
+	<tr><td>
+		featuring alerts , dismissable , fade<br />
+		<div class = "alert alert-success alert-dismissable"	>
+		<a href = "#" class = "close" data-dismiss = "alert" aria-label = "close">&times;</a>
+		<strong>Success!	</strong> Indicates a successful or positive <a href = "#" class = "alert-link">action</a>. </div></td></tr>
+
+	<tr><td><div class = "alert alert-info fade in"		>
+		<a href = "#" class = "close" data-dismiss = "alert" aria-label = "close">&times;</a>
+		<strong>Info!		</strong> Indicates a neutral informative change or action.	</div></td></tr>
+
+	<tr><td><div class = "alert alert-warning fade in"	>
+		<a href = "#" class = "close" data-dismiss = "alert" aria-label = "close">&times;</a>
+		<strong>Warning!	</strong> Indicates a warning that might need attention.	</div></td></tr>
+
+	<tr><td><div class = "alert alert-danger fade in"		>
+		<a href = "#" class = "close" data-dismiss = "alert" aria-label = "close">&times;</a>
+		<strong>Danger!	</strong> Indicates a dangerous or potentially negative action. </div></td></tr>
+	</table>
+	</div>
+
+<div class = "col-xs-4">
+	<br />featuring table striped , hover<br />
+	<table class = "table-striped table-hover">
+	<thead>
+	<tr>					<th>Firstname</th> <th>Lastname</th> <th>Email		</th> </tr>
+	</thead><tbody>
+	<tr>					<td>Default	</td> <td>Defaults	</td> <td>def@somemail.com	</td> </tr>
+	<tr class = "success">	<td>Success	</td> <td>Doe		</td> <td>john@example.com	</td> </tr>
+	<tr class = "danger">	<td>Danger	</td> <td>Moe		</td> <td>mary@example.com	</td> </tr>
+	<tr class = "info"	>	<td>Info	</td> <td>Dooley	</td> <td>john@example.com	</td> </tr>
+	<tr class = "warning">	<td>Warning	</td> <td>Refs		</td> <td>boor@example.com	</td> </tr>
+	<tr class = "active">	<td>Active	</td> <td>Activeson	</td> <td>act@example.com	</td> </tr>
+	</tbody>
+	</table>
+	</div>
+</div>
+
+<!--################################-->
+<div class = "row">
+<div class = "col-xs-12">
+<a name = "progress" href = "#toc" >featuring progress-bar</a>
+	<div class = "progress"> <div class = "progress-bar"														role = "progressbar" aria-valuenow = "70" aria-valuemin = "0" aria-valuemax = "100" style = "width: 70%"> <span class = "sr-only">70% Complete</span> </div> </div>
+	<div class = "progress"> <div class = "progress-bar progress-bar-striped active"				role = "progressbar" aria-valuenow = "20" aria-valuemin = "0" aria-valuemax = "100" style = "width: 20%">20% default	</div> </div>
+	<div class = "progress"> <div class = "progress-bar progress-bar-success"						role = "progressbar" aria-valuenow = "40" aria-valuemin = "0" aria-valuemax = "100" style = "width: 40%">40% success	</div> </div>
+	<div class = "progress"> <div class = "progress-bar progress-bar-info progress-bar-striped"		role = "progressbar" aria-valuenow = "60" aria-valuemin = "0" aria-valuemax = "100" style = "width: 60%">60% info		</div> </div>
+	<div class = "progress"> <div class = "progress-bar progress-bar-warning"								role = "progressbar" aria-valuenow = "80" aria-valuemin = "0" aria-valuemax = "100" style = "width: 80%">80% warning	</div> </div>
+	<div class = "progress"> <div class = "progress-bar progress-bar-danger progress-bar-striped"	role = "progressbar" aria-valuenow = "90" aria-valuemin = "0" aria-valuemax = "100" style = "width: 90%">90% danger		</div> </div>
+
+	<div class = "progress">
+		<div class = "progress-bar progress-bar-striped active"							role = "progressbar" aria-valuenow = "25" aria-valuemin = "0" aria-valuemax = "100" style = "width: 25%">25% Complete	</div>
+		<div class = "progress-bar"																	role = "progressbar" aria-valuenow = "25" aria-valuemin = "0" aria-valuemax = "100" style = "width: 25%">25% default	</div>
+		<div class = "progress-bar progress-bar-success progress-bar-striped "	role = "progressbar" aria-valuenow = "20" aria-valuemin = "0" aria-valuemax = "100" style = "width: 20%">20% success	</div>
+		<div class = "progress-bar progress-bar-info"										role = "progressbar" aria-valuenow = "15" aria-valuemin = "0" aria-valuemax = "100" style = "width: 15%">15% info		</div>
+		<div class = "progress-bar progress-bar-warning progress-bar-striped "	role = "progressbar" aria-valuenow = "10" aria-valuemin = "0" aria-valuemax = "100" style = "width: 10%">10% warning	</div>
+		<div class = "progress-bar progress-bar-danger"									role = "progressbar" aria-valuenow = "05" aria-valuemin = "0" aria-valuemax = "100" style = "width: 05%">05% danger		</div>
+		</div>
+</div>
+</div>
+
+<!--################################-->
+<div class = "row">
+<div class = "col-xs-12">
+<a name = "jumbotron" href = "#toc" >featuring jumbotron , wells , listsGroups , panels<a />
+
+<div class = "jumbotron"><p><i class = "fa fa-cog fa-spin" /></i> Nulla metus metus , ullamcorper vel , tincidunt sed , euismod in , nibh.
+	Quisque volutpat condimentum velit.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae ;
+	Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam.</p></div>
+
+<div class = "well well-sm"><i class = "fa fa-cog fa-spin" /></i> Basic Well</div>
+
+<br /><div class = "panel-group"><div class = "panel panel-default">
+
+	<div class = "panel-heading">
+		<h4 class = "panel-title">
+		<a data-toggle = "collapse" href = "#listCollapse">Collapsible lists</a>
+		</h4>
+	</div>
+
+	<div id = "listCollapse" class = "panel-collapse collapse">
+
+		<ul class = "list-group">
+			<li class = "list-group-item"							>Model		<span class = "badge">5</span></li>
+			<li class = "list-group-item"							>View		<span class = "badge">5</span></li>
+			<li class = "list-group-item"							>Control	<span class = "badge">4</span></li>
+			<li class = "list-group-item list-group-item-success"	>Frameworks	</li>
+			<li class = "list-group-item list-group-item-info"		>Tools		</li>
+			<li class = "list-group-item list-group-item-warning"	>J2EE Stack	</li>
+			<li class = "list-group-item list-group-item-danger"	>MEAN Stack	</li>
+			</ul>
+
+		<div class = "list-group">
+			<a href = "#" class = "list-group-item active"			>Model		<span class = "badge">5</span></a>
+			<a href = "#" class = "list-group-item disabled"		>View		</a>
+			<a href = "#" class = "list-group-item"					>Control	</a>
+			<a href = "#" class = "list-group-item list-group-item-success"	>Frameworks	<span class = "badge">3</span></a>
+			<a href = "#" class = "list-group-item list-group-item-info"	>Tools		</a>
+			<a href = "#" class = "list-group-item list-group-item-warning"	><h4 class = "list-group-item-heading">J2EE</h4><p class = "list-group-item-text">J2EE Stack</p></a>
+			<a href = "#" class = "list-group-item list-group-item-danger"	><h4 class = "list-group-item-heading">MEAN</h4><p class = "list-group-item-text">MEAN Stack</p></a>
+			</div>
+
+	</div>
+
+</div></div>
+
+<br /><div class = "panel-group"><div class = "panel panel-default">
+
+	<div class = "panel-heading">
+		<h4 class = "panel-title">
+		<a data-toggle = "collapse" href = "#panelCollapse">Collapsible panels</a>
+		</h4>
+	</div>
+
+	<div id = "panelCollapse" class = "panel-collapse collapse">
+
+		<div class = "panel">
+			<div class = "panel-heading"	>Panel Heading	</div>
+			<div class = "panel-body"		>Panel Body		</div>
+			</div>
+
+		<div class = "panel panel-default">
+			<div class = "panel-heading"	>Panel Heading	</div>
+			<div class = "panel-body"		>Panel Body		</div>
+			<div class = "panel-footer"		>Panel Footer	</div>
+			</div>
+
+		<div class = "panel panel-primary">
+			<div class = "panel-heading"	>Panel Heading	</div>
+			<div class = "panel-body"		>Panel Body		</div>
+			</div>
+
+		<div class = "panel panel-success">
+			<div class = "panel-heading"	>Panel Heading	</div>
+			<div class = "panel-body"		>Panel Body		</div>
+			</div>
+
+		<div class = "panel panel-info">
+			<div class = "panel-heading"	>Panel Heading	</div>
+			<div class = "panel-body"		>Panel Body		</div>
+			</div>
+
+		<div class = "panel panel-warning">
+			<div class = "panel-heading"	>Panel Heading	</div>
+			<div class = "panel-body"		>Panel Body		</div>
+			</div>
+
+		<div class = "panel panel-danger">
+			<div class = "panel-heading"	>Panel Heading	</div>
+			<div class = "panel-body"		>Panel Body		</div>
+			</div>
+		</div>
+
+	</div>
+
+</div></div>
+
+</div>
+
+<h4>Accordion Panel Shell Game!</h4>
+<div class = "panel-group" id = "accordion">
+	<div class = "panel panel-default">
+		<div class = "panel-heading"> <h4 class = "panel-title">
+			<a data-toggle = "collapse" data-parent = "#accordion" href = "#accordion1">
+			MysteryDoor1</a> </h4> </div>
+		<div id = "accordion1" class = "panel-collapse collapse">
+		<div class = "panel-body list-group-item-warning">Door Number One is Empty!</div>
+		</div>
+		</div>
+	<div class = "panel panel-default">
+		<div class = "panel-heading"> <h4 class = "panel-title">
+			<a data-toggle = "collapse" data-parent = "#accordion" href = "#accordion2">
+			MysteryDoor2</a> </h4> </div>
+		<div id = "accordion2" class = "panel-collapse collapse">
+		<div class = "panel-body list-group-item-danger">Door Number Two is Empty!</div>
+		</div>
+		</div>
+	<div class = "panel panel-default">
+		<div class = "panel-heading"> <h4 class = "panel-title">
+			<a data-toggle = "collapse" data-parent = "#accordion" href = "#accordion3">
+			MysteryDoor3</a> </h4> </div>
+		<div id = "accordion3" class = "panel-collapse collapse">
+		<div class = "panel-body list-group-item-success">Door Number Three has a New Car!</div>
+		</div>
+		</div>
+	</div>
+
+<!--################################-->
+<a name = "collapsibles" href = "#toc" >featuring collapsibles</a>
+<div class = "row">
+<div class = "col-xs-12">
+
+	<button class = "btn-primary" data-toggle = "collapse" data-target = "#demo1">Collapsible1</button>
+		<div id = "demo1" class = "collapse">
+		Collapsible1 Lorem ipsum dolor sit amet , consectetur adipiscing elit. Integer nec odio. Praesent libero.
+		Sed cursus ante <code>dapibus</code> diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. <abbr title = "Duis sagittis ipsum">DSI</abbr>.
+		Praesent mauris. Fusce nec tellus sed augue semper porta. <code>Mauris</code> massa. Vestibulum lacinia arcu eget nulla.
+		Class aptent taciti sociosqu ad litora <kbd>torquent</kbd> per conubia nostra , per inceptos himenaeos.
+		Curabitur sodales ligula in libero.
+		</div>
+
+	<button class = "btn-info" data-toggle = "collapse" data-target = "#demo2">Collapsible2</button>
+		<div id = "demo2" class = "collapse">
+		Collapsible2 Sed dignissim lacinia nunc. Curabitur tortor.
+		<b class = "text-muted"		>Pellentesque nibh. Aenean quam. </b>
+		<b class = "text-primary"	>In scelerisque sem at dolor. Maecenas mattis. </b>
+		<b class = "text-success"	>Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. </b>
+		<b class = "text-info"		>Morbi lectus risus , iaculis vel , suscipit quis , luctus non , massa. </b>
+		<b class = "text-warning"	>Fusce ac turpis quis ligula lacinia aliquet. </b>
+		<b class = "text-danger"	>Mauris ipsum. Nulla metus metus , ullamcorper vel , tincidunt sed , euismod in , nibh. </b>
+		Quisque volutpat condimentum velit.
+		</div>
+
+	<button class = "btn-success" data-toggle = "collapse" data-target = "#demo3">Collapsible3</button>
+		<div id = "demo3" class = "collapse">
+		Collapsible3 Class aptent taciti sociosqu ad litora torquent per conubia nostra , per inceptos himenaeos. Nam nec ante.
+		<b class = "bg-primary"	>Sed lacinia , urna non tincidunt mattis , tortor neque adipiscing diam , a cursus ipsum ante quis turpis.</b>
+		<b class = "bg-success"	>Nulla facilisi. </b>
+		<b class = "bg-info"	>Ut fringilla. </b>
+		<b class = "bg-warning"	>Suspendisse potenti.</b>
+		<b class = "bg-danger"	>Nunc feugiat mi a tellus consequat imperdiet. </b>
+		Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit.
+		</div>
+
+	<a href = "#demo4" data-toggle = "collapse">Linkage1</a>
+		<div id = "demo4" class = "collapse">
+		Linkage1 Lorem ipsum dolor sit amet , consectetur adipisicing elit , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam , quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</div>
+
+</div>
+</div>
+
+<!--################################-->
+<br /><a name = "blockquote" href = "#toc" >featuring blockquote ( reverse centered )<a />
+<div class = "row">
+<div class = "col-xs-6"></div>
+<div class = "col-xs-6">
+<table><tr><td>
+	<blockquote class = "blockquote-reverse">
+	<script>document.write( quotables[ Math.floor( Math.random( ) * quotables.length ) ] ) ;</script>
+	<footer>anonymous</footer></blockquote>
+	</td></tr></table>
+</div>
+</div>
+<br />
+
+</div>
+</body></html>
