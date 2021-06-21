@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<!--
+c:\workspace\bibleStudy\apolo.html
+see: "c:/dbase/history.sql"
+see: "\\3Ministry\rhetoric\apolo_parsed.txt"
+copyright 2021 Martin George , All rights reserved.
+-->
+
+<html lang = "en"><head><title>history entry</title>
+
+<!-- bootstrap init -->
+<meta charset = "utf-8">
+<meta name = "viewport" content = "width=device-width , initial-scale=1">
+<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<link type = "image/x-icon" rel = "shortcut icon" href = "images/bootstrap.png" />
+<link rel = "apple-touch-icon" href = "images/bootstrap.jpg" />
+<script type = "text/javascript" src = "resources/basics.js" ></script>
+<script type = "text/javascript" src = "resources/quotables.js" ></script>
+<style>
+body	{ background: url( 'images/tile_parchment.jpg' ) ; }
+img { width: 200px ; }
+hr { width: 80%; }
+.lbl { width: 24%; }
+</style>
+
+</head>
+
+<!--################################-->
+<body><div class = "container">
+
+<nav class = "navbar navbar-expand-sm bg-dark navbar-dark sticky-top"><!--fixed-top sticky-top-->
+
+	<button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#collapsibleNavbar">
+		<span class = "navbar-toggler-icon"></span></button>
+
+	<div class = "collapse navbar-collapse" id = "collapsibleNavbar">
+		<ul class = "navbar-nav">
+			<li class = "nav-item dropdown">
+				<a class = "navbar-brand dropdown-toggle" href = "#" id = "navbardrop" data-toggle = "dropdown">MamGeorge</a>
+				<div class = "dropdown-menu">
+					<a class = "dropdown-item" target = "_blank" href = "file:///C:/workspace/training/bootstrap/bootstrap1.html">Bootstrap3 Sample</a>
+					<a class = "dropdown-item" target = "_blank" href = "https://www.w3schools.com/bootstrap4/bootstrap_forms.asp">Bootstrap4 forms</a>
+					</div>
+				</li>
+
+			<li class = "nav-item"><a class = "nav-link" href = "#">Spirit</a></li>
+			<li class = "nav-item"><a class = "nav-link" href = "#">Family</a></li>
+			<li class = "nav-item"><a class = "nav-link" href = "#">Service</a></li>
+			<li class = "nav-item"><a class = "nav-link" href = "#">Work</a></li>
+			<li class = "nav-item dropdown">
+				<a class = "nav-link dropdown-toggle" href = "#" id = "navbardrop" data-toggle = "dropdown">Project</a>
+				<div class = "dropdown-menu">
+					<a class = "dropdown-item" href = "#">Christian</a>
+					<a class = "dropdown-item" href = "#">Translation</a>
+					<a class = "dropdown-item" href = "#">Robotics</a>
+					<a class = "dropdown-item" href = "#">Archaeology</a>
+					<a class = "dropdown-item" href = "#">MartialArts</a>
+					</div>
+				</li>
+		</ul>
+
+		<nav class = "navbar navbar-expand-sm bg-dark navbar-dark">
+			<form class = "form-inline" action = "/action_page.php">
+			<input class = "form-control mr-sm-2" type = "text" placeholder = "Search">
+			<button class = "btn btn-success" type = "submit">Submit</button>
+			</form>
+			</nav>
+	</div>
+
+</nav>
+
+<div class = "page-header"><h1 onclick = "location.href = 'development.html'" >History Entry</h1></div>
+</div>
+
+<center><form action = "" >
+	<table border = "0" cellpadding = "8" cellspacing = "0">
+	<tr><td>
+		<label class = "lbl btn-warning" for = "anyIndex" >anyIndex</label>
+		<button class = "lbl btn btn-info"	type = "submit" style = "width: 73%;">SELECT</button>
+		</td></tr>
+	<tr><td>
+		<input class = "lbl" type = "text"	placeholder = "begDate" id = "begDate" title = "example: -yyyy/mm/dd"	>
+		<input class = "lbl" type = "text"	placeholder = "begTime" id = "begTime" title = "example: hh:mm:ss TMZ"	>
+		<input class = "lbl" type = "text"	placeholder = "endDate" id = "endDate" title = "example: +yyyy/mm/dd"	>
+		<input class = "lbl" type = "text"	placeholder = "endTime" id = "endTime" title = "example: hh:mm:ss TMZ"	>
+		</td></tr>
+	<tr><td>
+		<input class = "lbl" type = "text"	placeholder = "label"		id = "label"		title = "high level description" >
+		<input class = "lbl" type = "text"	placeholder = "eraMain"		id = "eraMain"		title = "era summary" >
+		<input class = "lbl" type = "text"	placeholder = "person"		id = "person"		title = "kingdom, dynasty, title, name" >
+		<input class = "lbl" type = "text"	placeholder = "reference"	id = "reference"	title = "scripture, historian, source material" >
+		</td></tr>
+	<tr><td>
+		<select class = "lbl" name = "locale" id = "locale" title = "high level domain locale"  >
+			<option value = "">LOCALE			</option>
+			<option value = "H">Hebrew			</option>
+			<option value = "A">Africa			</option>
+			<option value = "M">Mesopotamia	</option>
+			<option value = "I">India			</option>
+			<option value = "C">China			</option>
+			<option value = "E">Europe			</option>
+			<option value = "AN">AmericaNorth	</option>
+			<option value = "AC">AmericaCentral</option>
+			<option value = "AS">AmericaSouth	</option>
+			<option value = "AU">Asutraila		</option>
+			<option value = "AT">Antartica		</option>
+			</select>
+		<input class = "lbl" type = "text"	placeholder = "location"	id = "location"	title = "country, state, city" >
+		<select class = "lbl" name = "weight" id = "weight" title = "relative value of evidence"   >
+			<option value = "">WEIGHT		</option>
+			<option value = "A">high		</option>
+			<option value = "B">medium		</option>
+			<option value = "C">implies	</option>
+			<option value = "X">unique		</option>
+			<option value = "U">unknown	</option>
+			</select>
+		<input class = "lbl" type = "text"	placeholder = "mediaPath"	id = "mediaPath" >
+		</td></tr>
+	<tr><td vertical-align = "top" ><textarea rows = "4"  maxlength = "255"
+			style = "text-align: left; vertical-align: top; width: 73%;" wrap = "soft"
+			name = "notes" id = "notes"  placeholder = "notes" title = "
+details, date (updated), date (discovered),
+detailed location, authority, context, considerations,
+additional scripture, additional references"></textarea>
+			<img src = "images\globe.jpg" title = "images\globe.jpg"
+				style = "border: solid black 1px; vertical-align: top; width: 24%; height: 100px;" ></td>
+			</td></tr>
+	<tr><td>
+		<button class = "lbl btn btn-success"	type = "submit" >&#60;&#60; PREV</button>
+		<button class = "lbl btn btn-primary"	type = "submit" >UPDATE</button>
+		<button class = "lbl btn btn-danger"	type = "submit" >CLEAR</button>
+		<button class = "lbl btn btn-success"	type = "submit" >NEXT &#62;&#62;</button>
+		</td></tr>
+	</table>
+	</form>
+
+	<hr/>
+	<table border = "1" cellpadding = "4" cellspacing = "0" style = "">
+		<tr>
+			<th>anyIndex	</th>
+			<th>begDateTime</th>
+			<th>endDateTime</th>
+			
+			<th>label		</th>
+			<th>eraMain		</th>
+			<th>person		</th>
+			<th>reference	</th>
+			
+			<th>locale		</th>
+			<th>location	</th>
+			<th>weight		</th>
+			<th>mediaPath	</th>
+			<th>notes		</th>
+			</tr>
+
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			</tr>
+
+		</table>
+	</center>
+
+</body></html>

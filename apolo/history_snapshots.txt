@@ -1,0 +1,280 @@
+history_snapshots.txt
+
+	see: "C:\Martin\5Personal\History\0304History.txt"
+	see: "C:\Martin\5Personal\History\notes\sumHistory.html"
+	see: "C:\Martin\5Personal\History\notes\history.sql"
+
+-1500
+
+	Hebrew:		 	After the Exodus, God leads Moses to Sinai to declare the law
+	Africa:		 	Egypt 2nd 16th dynasty pharaoh Djedneferre Dedumose 2 kingdom subdued by Asiatics
+	Mesopotamia:	Babylon Kassite king Agum 2 Kakrime offers tax exemptions for idol makers
+	India:		 	Battle of the 10 Kings: Bharata kingdom defeats an alliance of 10 kings and settles in KurukShetra
+	China:		 	100 years after the MingTiao Battle, Shang (aka Erligang) king ZuXin moves the capital for the 6th time to Bi
+	Europe:		 	Mycenaeans form the 1st major Greek culture under the Perseid Dynasty
+	AmericaNorth:	PovertyPoint mounds & earthworks complex
+	AmericaCentr:	Formative period for Tlapacoya predates the Olmec groups
+	AmericaSouth:	NorteChico-Caral pyramid civilization declines
+
++0050
+
+	Christians:		Apostles hold 1st Council of Jerusalem; Paul& Silas begin 2nd missionary journey
+	Hebrews:		Jerusalem high priest Ananias is sent to Rome after being accused of violence; acquitted by emperor Claudius
+	Africa:			West Nok & East Axum cultures still thriving
+	Mesopotamia:	Parthia dynasty Arsacid king Gotarzes 2 rules Parthian Empire
+	India:			Kerala state Kodungallur city (under Chera rule) allows Saint Thomas to build 7 churches
+	China:			East Han emperor #1 Guangwu recaptures control of China with strategic military leadership (25–57) / 23 East Han rule restored, 25 Henan province Luoyang city is capital, 52 Yuejue Shu is 1st gazetteer
+	Europe:			Rome emperor Claudius begins Roman conquest of Britain; conflicts with Parthians continue / Britain South Wales tribe Silures defeat Roman 2nd Legion
+	AmericaNorth:	Ohio Hopewell culture superceded older Adena
+
+summary [
+
+	time	| Hebrew		| Africa		| Levant		| India			|China			| Europe		| Americas //
+	-----------------------------------------------------------------------------------------------------------------
+	-4000	| Adam			| ?Naqada 1		| ?UbaidUruk	| ?Mehrgarh 3	| ?HuangHe		| ?SweetTrack	| ? //
+	-3000	| Methuselah	| Menes			| ?JemdatNasr	| ?IVC Ravi		| ?YangShao		| ?Newgrange	| ? //
+	-2000	| Abraham		| MID_11th_M3	| Sumer_Ur3		| IVC_H3C		| Xia4_S4K1		| Stonehenge2	| Matanchen //
+	-1500	| Exodus		| 2nd_Tutimaios	| Burnaburiash1	| IVC_Harappa5	| Shang_Zu3Xin1	| Athens_Cranaus| Tlapacoya //
+	-1000	| Israel_UM		| TIP_Amenemope	| Bab_6th_ESS	| PGW_BRW		| Zhou1_K1W2	| Athens_Medon	| Olmec //
+	-0500	| Prophet_Daniel| Nok_Culture	| Persia_Darius1| Buddha		| Confucius		| Roman_Republic| Zapotec //
+	+0000	| Christ		| Axum_Kingdom	| Parthia_P5	| SV_RiktaVarna	| WHan_Ai1		| Roman_Augustus| Maya_Tikal //
+	+0500	| Byzan_Elias1	| Ghana_Kingdom	| Sassan_Kavadh1| Gupta_Vainya	| Wei_Xuan1Yuan3| Britain_Arthur| Maya_Uxmal //
+	+1000	| Church_S2		| Fatimid_AH	| Abbasid_AQ	| Chola_RR1		| Song_ZZ		| HRE_Otto3		| Maya_ChichenItza //
+	+1500	| Luther		| Abbasid_AM	| Ottom_Bayezid2| Mughal_Babur	| Ming_Hong2Zhi4| Columbus		| Aztec_Ahuitzotl //
+	+2000	| Israel		| AU			| OPEC			| SAARC			| SCO			| EU			| NAFTA , UNASUR //
+
+	summary
+
+	-4000	| Adam | ?Naqada 1 | ?UbaidUruk | ?Mehrgarh 3 | ?HuangHe | ?SweetTrack | ? //
+	-4000	|------------------------------------------------------------
+	-4000	| 0H | Adam			| Biblical patriarch #01 Adam //
+	-4000	| 1A | ?Naqada1		| Predynastic Naqada1 culture //
+	-4000	| 2L | ?UbaidUruk	| UbaidUruk culture / Iran: Jiroft / Turkey: GobekliTepe //
+	-4000	| 3I | ?Mehrgarh	| Mehrgarh period 3 //
+	-4000	| 4C | ?HuangHe		| HuangHe , SanXingDui , Dawenkou cultures //
+	-4000	| 5E | ?SweetTrack	| SweetTrack / Greece: DispilioTablet , Romania: TartariaTablets , Bulgaria: GradeshnitsaTablets //
+	-4000	| 6A | ?			| ? //
+
+	-3000	| Methuselah | Menes | ?JemdatNasr | ?Mehrgarh | ?YangShao | ?Newgrange | ? //
+	-3000	|------------------------------------------------------------
+	-3000	| 0H | Methuselah	| Biblical patriarch #08 Methuselah //
+	-3000	| 1A | ?Menes		| Egypt dynasty #01 OldKingdom pharaoh #01 Menes //
+	-3000	| 2L | ?JemdatNasr	| Iraq Sumer JemdatNasr / Iran Susa ProtoElamite //
+	-3000	| 3I | ?Mehrgarh	| IVC Ravi / Mehrgarh period 5 //
+	-3000	| 4C | ?YangShao	| YangShao , SanXingDui2 , LongShan cultures //
+	-3000	| 5E | ?Newgrange	| CastleRigg , StoneHenge1 / Newgrange , SkaraBrae , MaesHowe , NoltlandLinks / Malta Ggantija , GharDalam //
+	-3000	| 6A | ?			| ? //
+
+	-2500	| Methuselah | Shepseskaf | Jushur | Harrapa | HuangDi | Ellinikon | Archaic/Matanchen
+	-2500	|------------------------------------------------------------
+	-2500	| 0H | -3316 -2347	Patriarch ( 969 yrs ) Methuselah
+	-2500	| 1A | -2514 -2494 OldKingdom dynasty #04 pharaoh #06 Shepseskaf /
+	-2500	| 2L | -2600 Sumer Dynastic 2 Kish 1st (from Jushur to Agga) / -2500 Sumer Dynastic 2 Urim 1st (from MeshAnePada to Balulu) / -2550 -2371 Sumer Dynastic 3 Lagash 1st (from Enhengal to Urukagina)
+	-2500	| 3I | -2600 -2450 IndusValley 3a Harrapa / -2500 -1785 Ochre Coloured Pottery culture ( OCP ) of Ganga-Yamuna plain /
+	-2500	| 4C | -2600 Liaoning, Hebei / "Battle of Zhuolu"; HuangDi defeats ChiYou / -3500 -2000 Longshan offset LiangZhu culture /
+	-2500	| 5E | -2720 EM2 (Early Minoan) PrePalatial / Ellinikon Pyramid; older than Khufu / Cycladic civilization
+	-2500	| 6A |
+
+	-2000	| Abraham		| MID_11th_M3 | Sumer_Ur3_Sg | IVC_H3C | Xia4_S4K1 | Stonehenge2 | Archaic/Matanchen //
+	-2000	|------------------------------------------------------------
+	-2000	| 0H | Abraham			| Biblical Canaan patriarch #01 Abraham / Amorites / Canaanites //
+	-2000	| 1A | MID_11th_M3		| Egypt dynasty #11 MidKingdom Hyksos pharaoh #06 Mentuhotep 3 / Kerma //
+	-2000	| 2L | Sumer_Ur3_Sg		| Elam_IndattuInshushinak / Sumer_Ur3_Shulgi / Babylon_Ur_IbbiSuen / Asshur_Hayani //
+	-2000	| 3I | IVC_H3C			| IVC Harappa 3C / IVC_MahenjoDaro / OCP culture / Andronovo / Yamna / -1800 Magadha dynasty Barhadratha king #01 Brihadratha , son of Kuru Chedi king Vasu & Girika , possibly RV 1.36.18 , 10.49.6 aka Maharatha //
+	-2000	| 4C | Xia4_S4K1		| Xia king #06 Shao4 Kang1 / -2205 -2147 Xia dynasty #01 king Yu //
+	-2000	| 5E | Stonehenge2		| StoneHenge2 / Beaker Early Bronze Age / Minoan_Mid1 ( Minos king Cadmus ) //
+	-2000	| 6A | Matanchen		| ArchaicPeriod_PovertyPoint , Adena / ArchaicEra ( Matanchen , Capacha , Tlapacoya ) / NorteChico , Chinchorro //
+
+	-1500	| Exodus		| 2nd_Tutimaios | Burnaburiash1 | IVC_Harappa5 | Shang_Zu3Xin1 | Athens_Cranaus | Tlapacoya //
+	-1500	|------------------------------------------------------------
+	-1500	| 0H | Exodus				| Exodus: Patriarch_Moses leads the Hebrews from Egypt //
+	-1500	| 1A | SIP_16th_Dedumose	| Egypt SIP 16th dynasty pharaoh Djedneferre Dedumose 2 ( stela CG 20533 ) ( aka Tutimaios , Djehutymose ) / Egypt NEW 18th dynasty pharaoh #03 Thutmose 1 , Egypt conquers Nubia //
+	-1500	| 2L | Bab_Burnaburiash1	| Elam_Kidinu / Babylon_3rd_Burnaburiash1 / Assyria_PuzurAshur3 / Hittite_Hantili1 //
+	-1500	| 3I | IVC_Late_Harappa5	| IVC_Late_Harappa5 / OCP / DasaRajna "Battle of Ten Kings" TritsuBharata king Sudas defeats Puru tribes ( RV 7:18 , 33 , 83 ) / Magadha Brihadratha dynasty king #7 Niramitra //
+	-1500	| 4C | Shang_Zu3Xin1		| Shang dynasty #13 king [ zu3 xin1 ] ZuXin // -1600 Battle of Mingtiao
+	-1500	| 5E | Athens_Cranaus		| Athens Erechtheid dynasty #2 king Cranaus , succeeds Cecrops1 , Flood of Deucalion / Mycenae civilization / Bedd Branwen > Acton Park cultures //
+	-1500	| 6A | Tlapacoya			| Archaic_PovertyPoint / Capacha , Tlapacoya / Valdivia , NorteChico , BuenaVista //
+
+	-1000	| Israel_UM		| TIP_21st_Amen | Bab_6th_ESS | PGW_BRW | Zhou1_K1W2 | Athens_Medon | Olmec //
+	-1000	|------------------------------------------------------------
+	-1000	| 0H | Israel_David		| Biblical Israel UM king #02 David / Phoenicia / Tyre / Abibaal > Hiram //
+	-1000	| 1A | TIP_21st_Amen	| Egypt TIP dynasty #21 Tanite pharaoh #05 Amenemope / Nubia_Kush //
+	-1000	| 2L | Bab_6th_ESS		| Elam_ShuturNahhunte1 / Babylon_6th_EulmashShakinShumi / Assyria_AshurRabi2 / Canaan_Tyre_Abibaal //
+	-1000	| 3I | PGW_BRW			| Bihar Magadha dynasty Brihadratha king #21 Sunita / PGW_BRW / Vedic ( UP Hastinapur ) / Kuru dynasty KurukShetra //
+	-1000	| 4C | Zhou1_K1			| Zhou1 king Kang1 / prospers and expands N & W / Zhou1 king Mu4 / LieZi records engineer Yan Shi automata // -1046 Battle of Muye
+	-1000	| 5E | Athens_Medon		| Urnfield_Hillforts / Briton_Ebraucus / Early distinct Celts / HomericAge / Mycenae_Late / Athens king Codrus replaced by Athens archon Medon , Athens Medontid archon #05 Archippus / SeaPeoples //
+	-1000	| 6A | Olmec			| Late_Archaic + HoChunk + PovertyPoint / Olmec / Chavin // was WoodlandEarly_Adena!
+
+	-0500	| Prophet_Daniel| Nok_Culture | Persia_Darius1 | Buddha | Confucius | Roman_Republic | Zapotec //
+	-0500	|------------------------------------------------------------
+	-0500	| 0H | Prophet_Daniel	| Daniel ( Eze 14:14 , 14:20 . 20 , 28:3 ) / Ezra leads 1st group from captivity //
+	-0500	| 1A | Nok_Culture		| Nok_Culture / Chad Sao Kingdom / Nubia Kush Meriotic king Amaniastabarqa / Ethiopia Eritrea Damat / Bantu migrate into SW Uganda / Egypt 27th dynasty ( 1st Achaemenid Egypt Satrapy ) //
+	-0500	| 2L | Persia_Darius1	| Persia Acheamenid king #04 Darius 1 ( aka Darius the Great ) , "Battle of Marathon" Athens defeats Persia //
+	-0500	| 3I | Buddha			| Siddartha Gautama Buddha / Magadha Shishunaga dynasty king #05 Bimbisara / MahaJanapadas //
+	-0500	| 4C | Confucius		| Confucius appointed governor of city / Laozi / East Zhou S&A Wu state king Helu , "Battle of Boju" Wu ( with SunZi ) defeats Chu	//
+	-0500	| 5E | Roman_Republic	| Celt tribe #01 Cruithne ( aka Pritani ) / Athens Cleisthenes reforms democracy / Roman Republic founded , "Battle of Lake Regillus" Romans defeat Etruscans / Roman counsels Cornutus & Longus / Phidippides runs //
+	-0500	| 6A | Zapotec			| Woodland period Adena / Maya_Tikal , Haustec , Zapotec_writing , Teotihuacan / Paracas //
+
+	+0000	| Christ		| Axum_Kingdom | Parthia_P5 | SV_RiktaVarna	| WHan_Ai1 | Roman_Augustus | Maya_Tikal //
+	+0000	|------------------------------------------------------------
+	+0000	| 0H | Christ			| Christ / Zugot_Hillel_Shammai / Roman Judaea prefect tetrarch Herodian leader #05 Herod Archelaus //
+	+0000	| 1A | Axum_Kingdom		| Axum_Kingdom / Chad_Sao_Kingdom / Nok_Culture / Roman Aegypt governor #05 Gaius Turranius / 1st prefect counsul Cossus Cornelius Lentulus //
+	+0000	| 2L | Parthia_P5		| Parthia dynasty Arsacid king #26 Phraates 5 //
+	+0000	| 3I | SV_RiktaVarna	| Satavahana ( Maharashtra Prathisthan ) king #16 Riktavarna / Kushan ( Afghanistan Bagram ) king #01 Heraios / IndoGreek PunjabEast king #05 Strato 2 //
+	+0000	| 4C | WHan_Ai1			| W Han dynasty emperor #13 Ai1 Liu2Xin1 ( @ -0005 #14 Ping2 Kan4 , Xin dynasty emperor #01 Wang Mang ) //
+	+0000	| 5E | Roman_Augustus	| Roman dynasty #01 JulioClaudian emperor #01 Octavius Augustus / Britain Celt Catuvellauni leader #02 Tasciovanus //
+	+0000	| 6A | Maya_Tikal		| OH WoodlandMid_Hopewell + AZ Hohokam + FL Tequesta / Maya_Tikal , Teotihuacan , Zapotec , Haustec / Nazca //
+
+	+0500	| Byzan_Elias1	| Ghana_Kingdom | Sassan_Kavadh1 | Gupta_Vainya | Wei_Xuan1Yuan3 | Britain_Arthur | Maya_Uxmal //
+	+0500	|------------------------------------------------------------
+	+0500	| 0H | Byzantine_Elias1	| Byzantine patriarch Elias 1 / Pope #051 Saint Symmachus / Church evangelizing //
+	+0500	| 1A | Ghana_Kingdom	| Axum_Empire / Ghana_Kingdom Early / Chad_Sao_Kingdom / Bantu displaced Khoisans //
+	+0500	| 2L | Sassanid_Kavadh1	| Sassanid king #19 Kavadh 1 //
+	+0500	| 3I | Gupta_Vainya		| Gupta king #10 Vainya //
+	+0500	| 4C | NWei_Xuan1Yuan3	| NWei king Xuan1Yuan3 //
+	+0500	| 5E | Britain_Arthur	| Britain_Arthur , "Battle of Mons Badonicus" / Frank_Clovis / Italy_Theodoric / Spain_Alaric2 //
+	+0500	| 6A | Maya_Uxmal		| Anasazi Basketmaker 3 / Maya_Uxmal / Tiwanaku //
+
+	+1000	| Church_S2		| Fatimid_AH | Abbasid_AQ | Chola_RR1 | Song_ZZ | HRE_Otto3 | Maya_ChichenItza //
+	+1000	|------------------------------------------------------------
+	+1000	| 0H | Pope_Sylvester2	| French pope #139 Sylvester 2 ( Gerbert of Aurillac ) / Geonim_HaiBenSherira / +1009 CHS destroyed / +1054 Great Schism / +1099 Crusades //
+	+1000	| 1A | Fatimid_AH		| Fatimid ( Cairo ) caliph #06 AlHakim / Ghana_Kingdom / Morocco / Kanem / Nri //
+	+1000	| 2L | Abbasid_AQ		| Abbasid ( Baghdad ) caliph #25 AlQadir / Ghaznavid ( Ghazni ) sultan #04 Mahmud / Macedon dynasty leader #09 Basil 2 //
+	+1000	| 3I | Chola_RR1		| Chola ( TN Thanjavur ) king #08 Rajaraja 1 / GurjaraPratihara ( UP Kannauj ) king #15 RajaPala / Chalukya //
+	+1000	| 4C | Song4_Z1Z1		| China Song dynasty emperor #03 Zhen1Zong1 //
+	+1000	| 5E | HRE_Otto3		| Wessex_Aethelred2 / Capetian_Robert2 / HRE_Otto3 / Spain_AlManzor / Byzantine_Basil2 / Lief //
+	+1000	| 6A | Maya_ChichenItza	| WoodlandFortAncient + MississpianCahokia + Anazazi / Maya_Postclassic_ChichenItza / Tiwanaku + Chimu //
+
+
+	+1500	| Luther		| Abbasid_AlMustamsik | Ottom_Bayezid2 | Mughal_Babur | Ming_Hong2Zhi4 | Columbus | Aztec_Ahuitzotl //
+	+1500	|------------------------------------------------------------
+	+1500	| 0H | Luther				| Pope #213 Alexander 06 / Ottomans defeats Byzantine / Gutenberg Bible , Tyndale , Luther / Erasmus publishes "TextusReceptus" / Rishonim / Joseph Karo //
+	+1500	| 1A | Abbasid_AlMustamsik	| Abbasid caliph #17 AlMustamsik //
+	+1500	| 2L | Ottoman_Bayezid2		| Mongol Timurid dynasty > Safavid dynasty Shah Ismail 1 / Ottoman king Bayezid 2 //
+	+1500	| 3I | Mughal_Babur			| Vijayanagara Saluva dynasty king #03 Narasimha Raya 2 / Islam Mughal Babur //
+	+1500	| 4C | Ming_Hong2Zhi4		| Ming emperor #10 king Hong2Zhi4 //
+	+1500	| 5E | Columbus				| England_Henry7 / France_Louis12 / Germany_Maximilian1 / Spain_Fernando / Russia_Ivan3 //
+	+1500	| 6A | Aztec_Ahuitzotl		| FortAncient , Anasazi / Aztec king #8 Ahuitzotl / Inca , RapaNui //
+
+	+2000	| Israel		| AU | OPEC | SAARC | SCO | EU | NAFTA , UNASUR //
+	+2000	|------------------------------------------------------------
+	+2000	| 0H | Israel			| Israel president #08 Moshe Katsav / Vatican pope #263 John Paul 2 //
+	+2000	| 1A | AU				| AU / Egypt president #04 Hosni Mubarak / SouthAfrica president #09 Thabo Mbeki //
+	+2000	| 2L | OPEC				| OPEC / Iraq president #05 Saddam Hussein / Iran supreme #02 Ali Khamenei / Turkey president #10 Ahmet Sezer / OIC //
+	+2000	| 3I | SAARC			| SAARC / India president #10 Kocheril Narayanan //
+	+2000	| 4C | SCO				| SCO / PRC president #07 Jiang Zemin //
+	+2000	| 5E | EU				| EU / UnitedKingdom Windsor monarch #04 Elizabeth 2 / EU president Hubert Vedrine //
+	+2000	| 6A | NAFTA			| NAFTA / USA president #42 Bill Clinton / Mexico president #55 Vicente Fox / UNASUR , Brazil president #34 Fernando Cardoso , Peru president #91 Valentin Paniagua //
+]
+
+levantine [
+
+	-2000 LEVANT_ESBATS
+
+			Elam	/ dynasty #02 Simashki	king #11 IndattuInshushinak 2 , son of Pepi , during Isin king ShuIlishu , Eshnunna king Bilalama
+			Sumer	/ dynasty #12 Ur #3		king #02 Shulgi , son of UrNamma , finished Great Ziggurat of Ur , ran long distances , name was Dungi
+			Babylon	/ Amorite Larsa			king #01 Naplanum / Ur dynasty #03 king #05 IbbiSuen / Simashki king#10 Kindattu
+			Asshur	/ KKF Assyria			king #04 Hayani , son of Samani , ancestor of ShamshiAdad 1 , KKF ( King of Known Father )
+			Turkey	/ Hattian / Hurrian Urkesh king AnnAtal /
+			Canaan	/ Canaanites / Amorites / Jebusites? /
+
+	-1500 LEVANT_EBATS
+
+			Elam	/ Elam MID dynasty Kidinuid king #01 Kidinu
+			Babylon	/ Babylon 3rd dynasty Kassite king Burnaburiash 1
+			Asshur	/ Assyria OLD king #31 PuzurAshur 3 has treaty with Burnaburiash
+			Turkey	/ Turkey Hittite OLD Hantili 1 , assassinated Mursili 1 who sacked Babylon / Ugarit Amurru Habiru
+			Canaan	/ "Battle of Megiddo" NEW 18th Thutmose3 defeats coaltion under Canaan Kadesh
+
+	-1000 LEVANT_EBATS
+
+			Elam	/ dynasty #06 Shutrukid	king #09 ShuturNahhunte 1 , king of Anshan & Susa , son of HumbanNumena 2 , NOT ShutrukNahhunte
+			Babylon	/ dynasty #06 Kassite	king #01 EulmashShakinShumi , Kassite of BitBazi
+			Asshur	/ Mid Assyria			king #24 AshurRabi 2 , time of famine
+			Turkey	/ ?
+			Canaan	/ Syria Carchemish king #10 UraTarhunzas / -0990 -0978 Tyre king #1 Abibaal
+]
+
+european [
+
+	+0500 EUROPE
+
+			Britain RomanoCelt chieftain Arthur / Saint Patrick
+			Frank king #01 Clovis
+			Germany ( aka Magna Germania ) was part of the Frankish Kingdom
+			Spain Visigothic king Alaric 2 ( at Toulouse )
+			Italy king #02 Theodoric the Great / +0476 +0493 Italy king #01 Odoacer ( Germanic foederati ) defeats W Roman emperor Romulus Augustus
+
+	+1000 EUROPE
+
+			Britain Wessex king #14 Aethelred 2 /
+			France Capetian dynasty #03 king #02 Robert 2 the Pious /
+			German king #11 Otto3 ( aka HRE ) /
+			Spain Moor hajib AlMansur ( aka AlManzor ) /
+				+0981 +1002 Cordoba Moor hajib AlMansur ( aka AlManzor ) /
+				+0976 +1008 Cordoba Cordoba caliph Hisham 2 ( Spain , nationality Andalusia , province Cordoba , capital Cordoba ) /
+				+0995 +1017 Spain Castile count Sancho Garcia /
+			Russia Kievan Rus dynasty #01 Rurik king #01 Vladimir the Great /
+			Poland king #2 Boleslas 1 Chrobry ( the Brave ) /
+			Czech Republic Bohemia duke #07 king Boleslaus 3 the Redhead / +0921 +0935 Bohemia duke #04 Wenceslaus 1 ( Vaclav ) /
+					Norway Gorm dynasty king #09 Sven 1 Forkbeard ( defeating Olaf Tryggvason ) ( King during Leif Ericson )
+
+	+1500 EUROPE
+
+			England Lancaster House king Henry 7
+			France Valois House king Louis 12
+			Germany Habsburg House king Maximilian 1 /  Luther
+			Spain king Fernando & Isabel / Columbus / Magellan
+			Italy Habsburg House king Maximilian 1
+			Russia king Ivan 3 the Great
+			Poland Jagiellonian dynasty king John 1 Albert
+			"Battle of Lepanto" macroHistorical battle of OttomanHabsburg wars
+]
+
+millenial snapshot [ +1000
+
+	Suda Encyclopedia
+	Crab Nebula Supernova
+	Division of E&W churches
+
+	+0991			08/10	Europe , England , Essex , Maldon , near River Blackwater / "Battle of Maldon" / Vikings defeat AngloSaxons under Aethelred 2
+	+0992			xx/xx	Europe , France , PaysDeLaLoire , Conquereuil 	/ "Battle of Conquereuil" / Fulk Nerra defeats Rennes leader Conan 1
+	+0994			xx/xx	Levant , Syria , Apamea , near River Orontes	/ "Battle of the Orontes" / Fatimid victory over a Byzantine army
+	+0995			05/21	Europe , Germany , NorthRhineWestphalia 		/ HRE German king Otto 3 / crowned Pope Gregory 5 / 16yr
+	+0998			xx/xx	AsiaSouth , Afghanistan , Ghazni				/ "Battle of Ghazni" / Mahmud of Ghazni defeats Ismail
+	+0999			04/02	Europe , France , Auvergne , SaintSimon 		/ Gerbert of Aurillac becomes pope #139 Silvester 2 ( succeeds Pope Gregory 5 )
+	+1000			xx/xx	Europe , Germany , NorthRhineWestphalia			/ HRE German king Otto 3 traveled from Rome to Aachen
+					09/09	Europe , Sweden , Oresund 						/ "Battle of Svolder" / Denmark|Swededn alliance defeats Norway king Olaf Tryggvason
+					12/25	Europe , Hungary , Esztergom 					/ Hungary king Stephen 1 establishes Christian kingdom
+	+1001			xx/xx	AmericaNorth , Canada							/ Viking explorer Leif Eriksson establishes settlements in Vinland
+					xx/xx	Europe , England , Devon , Exeter , Pinhoe		/ "Battle of Pinhoe" / Vikings defeat AngloSaxons in Devon
+					xx/xx	Europe , England , Hampshire , Alton 			/ "Battle of Alton 1st" / Danish invaders defeat the English
+					02/06	Europe , Italy , Latium , Tusculum				/ Tusculum count Gregory 1 / repels HRE German king Otto 3 , expels the Crescentii , named "Republic Head"
+	+1002			10/xx	Europe , Spain , Soria , Calatanazor 			/ "Battle of Calatanazor" / Castille Christian armies defeat Muslim leader Almanzor
+					11/13	Europe , England / Saint Brices Day massacre	/ Aethelred2 orders all England Danes killed
+	+1003			xx/xx	Europe , Denmark 								/ Denmark king Sweyn 1 begins his first invasion of England
+					xx/xx	Europe , Spain , Catalonia , Lleida , Albesa	/ "Battle of Albesa" / Cordoba Caliphate troops defeat North Christian armies
+	+1004			xx/xx	China , Henan , Kaifeng 						/ "Battle of Shanzhou" / Song crossbow sniper defeats Liao Dynasty general Xiao Talin
+	+1005			03/25	Europe , Scotland , Monzievaird 				/ "Battle of Monzievaird" / Scotland king Malcolm 2 defeats Scotland king Cinaed 3
+	+1008			xx/xx	AsiaSouth , Pakistan , Peshawar 				/ "Battle of Peshawar" / Turkic Ghazni sultan Mahmud defeat Hindu Shahi army of Jayapala
+					xx/xx	Africa , Egypt , Cairo 							/ Egypt Fatimid caliph AlHakim sends captain Domiyat to Song emperor Zhenzong
+	+1009			10/18	Africa , Egypt , Cairo 							/ Egypt Fatimid caliph AlHakim destroys Holy Sepulchre Church
+	+1010			xx/xx	England	 , England , Malmesbury					/ Benedictine monk Eilmer survives a crash after a 600 ft glider flight
+]
+
+Secondary: A5RJIS [
+
+	Location		|	-4000	/	-3000	/	-2000		/	-1000	/	+0000		/	+1000	/	+2000
+	----------------|----------------------------------------------------------------------------------------
+	AmerN AmerInd	|			/			/ Adena			/ HoChunk	/ Hopewell + H&T/ Anazazi&MS/ USA
+	AmerS Brazil	|			/ NorteChico/ NorteChico	/ Chavin	/ Mochica		/ Chimu		/ Brazil
+	Australia		|			/			/				/			/				/			/ England
+	Antartica		|			/			/				/			/				/			/ World
+	Europe Russia	|			/			/				/			/				/ Kievan	/ Russia
+	Europe GB		| SweetTrack/ CastleRigg/ StoneHenge	/ Hillforts	/ Catuvellauni	/ Britain	/ Europe
+	AsiaE Japan		|			/			/ Jomon			/ Jomon		/ Yayoi			/ Heian		/ Japan
+	AsiaE Indonesia	|			/			/				/			/ Dvipantara	/ Srivijaya	/ Indonesia
+	Africa Subcon	|			/			/ Nubian		/			/ Axum			/ Ghana		/ African States
+]
+----
+
