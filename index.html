@@ -1,0 +1,153 @@
+<!-- ©2024 Martin George , All rights reserved. -->
+<!DOCTYPE html>
+<html lang = "en"><head><title>MLG</title>
+<link rel = "shortcut icon" type = "image/x-icon" href = "redLogo.png" />
+<link rel = "apple-touch-icon" href = "redLogo.png" />
+<!-- base href = "//4Work/x_code" -->
+<!-- link rel = "StyleSheet" type = "text/css" href = "javascript/basics.css" /-->
+<!-- script type = "text/javascript" src = "javascript/basics.js" ></script -->
+<meta charset ="utf-8" />
+<meta http-equiv = "keywords" content = "MLG Martin George mamgeorge alterVista" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+let date = (new Date()).toISOString();
+function myTimer() { document.getElementById("timer").title = date; }
+window.addEventListener("load", myTimer); // window.onload = myTimer;
+</script>
+
+<style>
+body		{ background-color: silver; line-height: 1; }
+hr			{ margin-left: 5%; margin-left: 5%; }
+a, a:hover	{ text-decoration: none; }
+b, .ttl		{ font-size:1.1em; color: gray; display: block; text-align: center; }
+.ftr		{ padding-left: 5px; color: #a0a0a0; } .ftr:hover { color: white; }
+
+.red { border-right: 10px solid red;	}
+.ora { border-right: 10px solid orange;	}
+.yel { border-right: 10px solid yellow;	}
+.grn { border-right: 10px solid green;	}
+.blu { border-right: 10px solid blue;	}
+.prp { border-right: 10px solid purple;	}
+
+.qred { background-color: #fff0f0; }
+.qora { background-color: #fffaf0; }
+.qyel { background-color: #fffff0; }
+.qgrn { background-color: #f0fff0; }
+.qblu { background-color: #f0f0ff; }
+.qprp { background-color: #fff0ff; }
+</style>
+</head>
+
+<body>
+<div class = "p-1 bg-secondary text-white text-center"><h3>MLG Index</h3></div>
+
+<!-- HEADER -->
+<nav class = "navbar navbar-expand-sm bg-dark navbar-dark">
+
+	<div class = "container-fluid">
+
+		<a class = "navbar-brand" href = "https://mamgeorge.altervista.org/">MLG</a>
+		<ul class = "navbar-nav">
+			<a target = "_blank" class = "nav-link" href = "https://www.biblegateway.com/passage/?version=NASB1995"												>gateway</a><span class = "nav-link text-white"> ● </span>
+			<a target = "_blank" class = "nav-link" href = "http://apod.nasa.gov/apod/"																			>apod</a><span class = "nav-link text-white"> ● </span>
+			<a target = "_blank" class = "nav-link" href = "file:///C:/Users/mamge/OneDrive/Documents/5Personal/Technology/mamgeorge/3service/biblePix.html"	>bpod</a><span class = "nav-link text-white"> ● </span>
+			<a target = "_blank" class = "nav-link" href = "https://myworkspace-nec02-6-na.jpmchase.com/logon/LogonPoint/tmindex.html"							>jpmc</a>
+		</ul>
+		<a class = "navbar-brand" href = "https://en.wikipedia.org/wiki/Code_page_437" id = "timer" >437</a>
+
+	</div>
+</nav>
+
+<!-- BODY -->
+<div class = "container bg-light text-center mt-0" style = "height: calc(100vh - 130px); overflow: auto;">
+
+	<!-- localhost -->
+	<br /><fieldset class = "red fontlg bred" >
+
+		<b class = "ttl" title = "localhost loopback address: 127.0.0.1">
+			<a class = "ttl" href = "127.0.0.1" >localhost</a></b>
+
+		<br />
+		<a target = "_parent" class = "" href = "http://localhost:2000" >2000</a> ●
+		<a target = "_parent" class = "" href = "http://localhost:3000" >3000</a> ●
+		<a target = "_parent" class = "" href = "http://localhost:9000" >9000</a> ●
+		<a target = "_parent" class = "" href = "http://localhost:8080" >8080</a>
+
+		<br /><br />
+		<a target = "_parent" class = "" href = "http://localhost:8080/api/info"		>/api/info		</a> ●
+		<a target = "_parent" class = "" href = "http://localhost:8080/h2-console"		>/h2-console	</a> ●
+		<a target = "_parent" class = "" href = "http://localhost:8080/swagger-ui.html"	>/swagger-ui.html</a> ●
+
+		<br /><br />
+		<a target = "_parent" class = "" href = "http://localhost:8080/actuator"			>/actuator	</a> ●
+		<a target = "_parent" class = "" href = "http://localhost:8080/actuator/health"		>/a./health	</a> ●
+		<a target = "_parent" class = "" href = "http://localhost:8080/actuator/info"		>/a./info	</a> ●
+		<a target = "_parent" class = "" href = "http://localhost:8080/actuator/metrics"	>/a./metrics</a> ●
+		<a target = "_parent" class = "" href = "http://localhost:8080/actuator/prometheus" >/a./prometheus</a>
+
+	</fieldset>
+
+	<!-- jsontest -->
+	<hr /><fieldset class = "grn fontlg bgrn" >
+
+		<b class = "ttl" title = "jsontest">
+			<a class = "ttl" target = "_blank" href = "https://www.jsontest.com" >jsontest</a></b>
+
+		<br />
+		<a target = "_blank" class = "" href = "http://ip.jsontest.com"							> ip				</a> ●
+		<a target = "_blank" class = "" href = "http://ip.jsontest.com?callback=anycallback"	> ip_callback		</a> ●
+		<a target = "_blank" class = "" href = "http://ip.jsontest.com?mime=5"					> ip_mime			</a> ●
+		<a target = "_blank" class = "" href = "http://ip.jsontest.com?alloworigin=false"		> ip_alloworigin	</a>
+
+		<br />
+		<a target = "_blank" class = "" href = "http://headers.jsontest.com"					> headers			</a> ●
+		<a target = "_blank" class = "" href = "http://date.jsontest.com"						> date				</a> ●
+		<a target = "_blank" class = "" href = "http://time.jsontest.com"						> time				</a> ●
+		<a target = "_blank" class = "" href = "http://cookie.jsontest.com"						> cookie			</a> ●
+		<a target = "_blank" class = "" href = "http://code.jsontest.com"						> code				</a>
+
+		<br />
+		<a target = "_blank" class = "" href = "http://md5.jsontest.com/?text=MLG"						> md5		</a> ●
+		<a target = "_blank" class = "" href = "http://echo.jsontest.com/anyKey/anyVal/oneKey/oneVal"	> echo		</a> ●
+		<a target = "_blank" class = "" href = 'http://validate.jsontest.com/?json={"anyKey":"anyVal"};'> validate	</a>
+
+	</fieldset>
+
+	<!-- jsonplaceholder -->
+	<hr /><fieldset class = "blu fontlg bblu" >
+
+		<b class = "ttl" title = "jsonplaceholder">
+			<a class = "ttl" target = "_blank" href = "https://jsonplaceholder.typicode.com" >jsonplaceholder+</a></b>
+
+		<br />
+		<a target = "_blank" class = "" href = "https://jsonplaceholder.typicode.com/users"		> /users		</a> ●
+		<a target = "_blank" class = "" href = "https://jsonplaceholder.typicode.com/comments"	> /comments		</a> ●
+		<a target = "_blank" class = "" href = "https://jsonplaceholder.typicode.com/posts"		> /posts		</a> ●
+		<a target = "_blank" class = "" href = "https://jsonplaceholder.typicode.com/photos"	> /photos		</a> ●
+		<a target = "_blank" class = "" href = "https://api.github.com/users/mralexgray/repos"	> /mralexgray	</a>
+
+	</fieldset>
+
+<br /></div>
+
+<!-- FOOTER -->
+<div class = "navbar navbar-expand-sm bg-dark  pg-1 text-white">
+	<div class = "container-fluid" style = "text-align: center;">
+
+		<a class = "navbar-brand" href = "#"></a>
+		<ul class = "navbar-nav">
+			<a target = "_blank" class = "ftr" href = "https://www.google.com/search?q=translate&sca_esv=f5a20a2e9138d638&sca_upv=1&source=hp&ei=UzpaZsXmKNjIp84PmpCl0AE&sclient=gws-wiz" title = "fan1yi4"> 翻译_trans</a>&nbsp; ●
+			<a target = "_blank" class = "ftr" href = "http://www.chinese-tools.com/tools/ime.html"		> 中文_ime		</a>&nbsp;🔹
+			<a target = "_blank" class = "ftr" href = "https://www.w3schools.com"						> w3schools		</a>&nbsp; ●
+			<a target = "_blank" class = "ftr" href = "https://www.udemy.com/home/my-courses/learning"	> udemy			</a>&nbsp; ●
+			<a target = "_blank" class = "ftr" href = "https://github.com/mamgeorge"					> github		</a>&nbsp; ●
+			<a target = "_blank" class = "ftr" href = "http://www.unicodepedia.com" 					> unicodepedia	</a>
+		</ul>
+		<a class = "navbar-brand" href = "#"></a>
+
+	</div>
+</div>
+
+</body></html>
