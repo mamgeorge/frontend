@@ -1,0 +1,15 @@
+<h3>book works!</h3>
+
+<input  class = "form-control" [(ngModel)] = "newBookTitle" placeholder="Book Title" >
+<br />
+<input  class = "form-control" [(ngModel)] = "newBookAuthor" placeholder="Book Author" >
+<br />
+<button  class = "btn btn-primary" (click)="addBook()">Add Book</button>
+
+<br />
+<ul>
+  <li *ngFor="let book of booklist; index as ictr">
+    {{book.id}} - {{book.title}} by {{book.author}}
+    <button (click)="delBook(ictr)" >Delete</button>
+  </li>
+</ul>
