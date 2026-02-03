@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+html, body, .body { height: 100%; background: #202020; font-family: verdana;}
+h1,h2,h3,h4,h5,h6 { color: #ffffff; }
+
+.container { padding: 50px; max-width: 1200px; margin: auto; }
+
+.container-SM { padding: 50px; max-width: 800px; margin: auto; }
+
+.text-center { text-align: center; color:#ffffff}
+.text-right { text-align: right; }
